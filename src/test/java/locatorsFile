@@ -1,4 +1,11 @@
-componentReference = "//span[@title='Component Reference']'";
+componentReference = //span[@title='Component Reference']'
+quickFind=//input[@name='Quick Find']
+day=//input[contains(@name,'datetime') and @class='slds-input']
+time=//input[contains(@name,'datetime') and contains(@class,'slds-combobox')]
+componentReference=//span[@title='Component Reference']
+datatableLightning=//h3[contains(text(),'Light')]//parent::div//child::span[contains(text(),'datatable')]
+combobox=//button[contains(@id,'combobox')]
+
 
 
 

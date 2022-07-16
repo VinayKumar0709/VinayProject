@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-//INC34832583
 public class MyClass {
     //WebDriver driver1;
     static long startTime = 0;
@@ -22,7 +21,7 @@ public class MyClass {
         startTime =  System.currentTimeMillis();
     }
 
-    
+
     @AfterClass
     public static void tearDown(){
         endTime = System.currentTimeMillis();
